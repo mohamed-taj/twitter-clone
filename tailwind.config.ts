@@ -15,6 +15,7 @@ const config: Config = {
       },
       colors: {
         twitter: "#1DA1F2",
+        searchBar: "rgba(0,0,0,0.00)",
       },
     },
   },

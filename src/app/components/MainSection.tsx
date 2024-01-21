@@ -5,7 +5,7 @@ import { IoShapesOutline, IoShareOutline, IoStatsChart } from "react-icons/io5";
 
 const MainSection = () => {
   return (
-    <main className=" ml-[275px] h-full min-h-screen w-full max-w-[600px] flex flex-col border-l border-r border-gray-800 ">
+    <main className=" h-full min-h-screen max-w-[40%] flex flex-col border-l border-r border-gray-800 ">
       <h1 className="text-2xl font-bold p-3 backdrop-blur  bg-black/10 sticky top-0">
         Home
       </h1>

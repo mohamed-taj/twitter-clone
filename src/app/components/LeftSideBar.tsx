@@ -42,7 +42,7 @@ const NavData = [
 
 const LeftSideBar = () => {
   return (
-    <section className="fixed w-[275px] flex flex-col h-screen items-stretch justify-between space-y-2 py-6 ">
+    <section className="w-[25%] flex flex-col h-screen items-stretch justify-between space-y-2 py-6 ">
       <div className="flex flex-col space-y-2 mt-6">
         <Link href="/">
           <BsTwitterX className="ml-2 w-9 h-9" />
@@ -63,12 +63,12 @@ const LeftSideBar = () => {
           );
         })}
 
-        <button className=" w-[230px] h-[50px] rounded-3xl  bg-twitter  text-2xl text-center hover:bg-opacity-70 transition duration-200 ">
+        <button className=" w-[200px] h-[50px] rounded-3xl  bg-twitter  text-2xl text-center hover:bg-opacity-70 transition duration-200 ">
           Post
         </button>
       </div>
 
-      <button className=" flex  justify-between items-center mr-5 space-x-2 rounded-3xl  bg-transparent   text-center hover:bg-white/10 transition duration-200 ">
+      <button className=" flex   justify-between items-center mr-5 space-x-2 rounded-3xl  bg-transparent   text-center hover:bg-white/10 transition duration-200 ">
         <div className="flex space-x-2 items-center">
           <div className="bg-slate-500 w-8 h-8 rounded-full"></div>
           <div className=" text-left">
